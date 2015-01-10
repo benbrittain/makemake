@@ -1,0 +1,3 @@
+The following components will be consigned by the customer:
+
+- U100 STM32F101C8T6
