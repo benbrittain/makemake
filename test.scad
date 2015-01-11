@@ -1,15 +1,15 @@
 module board()
 {
-    translate([11, 11, 0]){
+    translate([11, 11, 5]){
         cube([120, 150, 10]);
     }
 }
 
 module screen()
 {
-    translate([00,0,0]){
-        rotate([0,90,0]){
-            cube([330, 40, 2]);
+    translate([0,6,20]){
+        rotate([0, -100, 0]){
+            cube([174.75, 283.975, 1]);
         }
     }
 }
@@ -23,7 +23,7 @@ module case()
             cube([200,300,20]);
             cylinder(r=4,h=1);
         }
-        translate([0,0,0]){
+        translate([0,0,3]){
             cube([202,302,20]);
         }
     }
@@ -31,20 +31,21 @@ module case()
 
 module ssd()
 {
-    translate([60, 180, 0]) {
+    translate([60, 180, 5]) {
         cube([99.8, 69.8, 7]);
     }
 }
 
 module keyboard()
 {
-    translate([70, 5, -18]) {
+    translate([70, 5, 18]) {
         cube([120, 290, 24]);
     }
 }
 
 board();
-//screen();
+screen();
 case();
 ssd();
 keyboard();
+battery();
