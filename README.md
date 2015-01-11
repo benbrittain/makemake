@@ -3,7 +3,7 @@ Not only a dwarf planet, but also the name of my new laptop!
 
 # Parts List
 1. Novena Motherboard - [kosagi](http://www.kosagi.com/w/index.php?title=Novena_Main_Page)
-2. Battery board - [kosagi](http://www.kosagi.com/w/index.php?title=Novena_Main_Page#Battery_board)
+2. Battery board - [kosagi](http://www.kosagi.com/w/index.php?title=Novena_Main_Page#Battery_board) (thanks to mclein)
 3. hacked up Tex Yoda keyboard
 4. Transcend 512GB SSD (SSD370)
 5. ?? Screen ??
