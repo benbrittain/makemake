@@ -10,3 +10,4 @@ Not only a dwarf planet, but also the name of my new laptop!
 6. ?? 3d printed case ??
 7. ?? battery pack ??
 8. MyriadRF SDR
+9. 2.8" TFT LCD with Cap Touch
