@@ -1,7 +1,17 @@
 module board()
 {
-    translate([11, 11, 5]){
-        cube([120, 150, 10]);
+    import("motherboard/motherboard.stl", convexity=3);
+//    translate([11, 11, 5]){
+//        cube([120, 150, 10]);
+//    }
+}
+
+module battery()
+{
+    translate([10, 10, 10]) {
+        rotate([0, 90, 0]) {
+            import("battery/battery.stl", convexity=3);
+        }
     }
 }
 
@@ -42,9 +52,16 @@ module keyboard()
     }
 }
 
+module lid()
+{
+
+
+}
+
 board();
-screen();
-case();
-ssd();
-keyboard();
+//screen();
+//case();
+//ssd();
+//keyboard();
 battery();
+//lid();
