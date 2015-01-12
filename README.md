@@ -9,5 +9,5 @@ Not only a dwarf planet, but also the name of my new laptop!
 5. LT131EE11000 screen. (LVDS, 1080p, 13.3")
 6. ?? 3d printed case ??
 7. ?? battery pack ??
-8. MyriadRF SRD - [myriad-rf](https://myriadrf.org)
+8. MyriadRF - [myriad-rf](https://myriadrf.org)
 9. 2.8" TFT LCD with Cap Touch - [adafruit](http://www.adafruit.com/products/2090)
