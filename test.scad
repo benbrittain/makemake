@@ -1,16 +1,17 @@
 module board()
 {
-    import("motherboard/motherboard.stl", convexity=3);
-//    translate([11, 11, 5]){
-//        cube([120, 150, 10]);
-//    }
+    translate([200, 180, 5]){
+        rotate([0, 0, 90]) {
+            import("motherboard/motherboard.stl", convexity=5);
+        }
+    }
 }
 
 module battery()
 {
-    translate([10, 10, 10]) {
-        rotate([0, 90, 0]) {
-            import("battery/battery.stl", convexity=3);
+    translate([42, 180, 5]){
+        rotate([0, 0, 90]) {
+            import("battery/battery.stl", convexity=5);
         }
     }
 }
@@ -40,7 +41,7 @@ module case()
 
 module ssd()
 {
-    translate([60, 180, 5]) {
+    translate([60, 10, 5]) {
         cube([99.8, 69.8, 7]);
     }
 }
@@ -59,9 +60,9 @@ module lid()
 }
 
 board();
-//screen();
-//case();
-//ssd();
+screen();
+case();
+ssd();
 //keyboard();
 battery();
 //lid();
